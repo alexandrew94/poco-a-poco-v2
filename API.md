@@ -6,6 +6,9 @@ All fields listed under "Data Params" are required unless stated otherwise.
 
 All endpoints except authentication endpoints require the user to be authenticated via a token in the request header. The token value can be acquired by logging in or signing up.
 
+#### Base Path
+* Heroku: `https://poco-a-poco.herokuapp.com/`
+
 #### Required request header
 * Header: `Authorization`
 * Value: `Bearer some-token-value-1234567890`
