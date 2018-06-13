@@ -1,0 +1,24 @@
+nav {
+  position: fixed;
+  top: 20vh;
+  bottom: 20vh;
+  width: 60px;
+  background-color: $primary;
+  border-top-right-radius: $default-border-radius;
+  border-bottom-right-radius: $default-border-radius;
+
+  div {
+    font-size: 40px;
+    text-align: center;
+
+    a {
+      color: white;
+    }
+
+    &.navbar-bottom {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}

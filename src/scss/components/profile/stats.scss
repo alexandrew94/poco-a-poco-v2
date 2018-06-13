@@ -1,0 +1,81 @@
+.stats {
+  background-color: $secondary-color-light;
+  border-radius: $default-border-radius;
+  margin-top: $default-margin;
+
+  div.first-row {
+    height: 300px;
+    text-align: center;
+
+    .total-panel {
+
+      h2.title {
+        background-color: $primary;
+        border-radius: $default-border-radius;
+        padding-top: 15px;
+        margin: $default-margin;
+        font-size: 36px;
+        height: 25%;
+        font-weight: 800;
+        color: white;
+      }
+
+      div.total {
+        color: white;
+        margin: $default-margin;
+        background-color: $secondary-color;
+        border-radius: $default-border-radius;
+        border: 7px solid $primary;
+        height: 50%;
+        line-height: 2.5em;
+
+        h3 {
+          font-size: 24px;
+          font-weight: 600;
+        }
+
+        h2 {
+          font-size: 36px;
+          font-weight: 800;
+        }
+      }
+    }
+
+    .pie {
+      h2 {
+        font-size: 32px;
+        font-weight: 600;
+      }
+
+      #pie {
+        height: auto !important;
+        width: 100% !important;
+      }
+    }
+  }
+
+  div.second-row {
+    height: 600px;
+    text-align: center;
+
+    h2 {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    div {
+      margin-top: 15px;
+
+      .chart-container {
+        height: 500px;
+
+        #line {
+          margin: 0 auto;
+          height: 450px !important;
+          width: auto !important;
+        }
+      }
+    }
+  }
+}

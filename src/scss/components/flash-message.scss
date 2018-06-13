@@ -1,0 +1,12 @@
+.flash-message {
+
+  border-radius: $default-border-radius;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  width: 400px;
+  z-index: 100;
+}

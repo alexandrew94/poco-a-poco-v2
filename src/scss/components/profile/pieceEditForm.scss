@@ -1,0 +1,77 @@
+.edit-piece{
+
+  .title-box {
+    background-color: white;
+    padding: $default-padding;
+    border-radius: $default-border-radius;
+    margin-bottom: 15px;
+
+    .field {
+      width: 100%;
+
+      label {
+        display: inline-block;
+        width: 50%;
+      }
+
+      input, select {
+        display: inline-block;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        background-color: $tertiary-color-light;
+        border: 3.5px solid $tertiary-color;
+        font-weight: 600;
+        border-radius: $default-border-radius;
+        padding: 0 15px;
+      }
+
+      .autocorrect {
+        font-size: 20px;
+
+        span {
+          font-weight: 600;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  textarea {
+    background-color: $primary-color-light;
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    height: 200px;
+    border: 3.5px solid $primary;
+    border-radius: $default-border-radius;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 24px;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    border: 0;
+    border-radius: $default-border-radius;
+    font-weight: 800;
+    cursor: pointer;
+
+    &.submit {
+      background-color: $secondary-color;
+    }
+
+    &.delete-button {
+      background-color: $primary;
+    }
+
+    &.close {
+      background-color: $tertiary-color;
+      color: black;
+    }
+  }
+}

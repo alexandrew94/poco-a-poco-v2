@@ -1,0 +1,11 @@
+html {
+  background-color: $background-color;
+
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  button:focus {outline:0;}
+  input:focus {outline:0;}
+}

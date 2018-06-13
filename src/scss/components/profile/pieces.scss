@@ -1,0 +1,108 @@
+.pieces {
+
+  .title {
+    font-weight: 800;
+    width: 50%;
+    background-color: $primary;
+    color: white;
+    line-height: 2.5em;
+    margin: $default-margin auto;
+    border-radius: $default-border-radius;
+  }
+
+  .search {
+    font-size: 24px;
+
+    input {
+      font-size: 24px;
+      font-weight: 600;
+      border-radius: $default-border-radius;
+      border: 3px solid $primary;
+      padding: 7px;
+    }
+  }
+
+  background-color: $secondary-color-light;
+  margin-top: $default-margin;
+  border-radius: $default-border-radius;
+  text-align: center;
+  padding: $default-padding;
+
+  .columns {
+
+    .column {
+      width: calc(33% - 60px);
+      margin: $default-margin;
+      background-color: white;
+      border-radius: $default-border-radius;
+      border: 7px solid $primary;
+      min-height: 250px;
+
+      .title-box {
+        width: 100%;
+        height: 230px;
+        padding: 15px;
+        background-color: $secondary-color;
+        color: white;
+        border-radius: $default-border-radius;
+
+        h2 {
+          font-size: 28px;
+          font-weight: 600;
+        }
+
+        h3 {
+          font-size: 24px;
+        }
+
+        h4 {
+          font-size: 20px;
+        }
+      }
+
+      .description-box {
+        margin: 15px 0;
+        padding: 15px;
+        border-radius: $default-border-radius;
+        background-color: $primary-color-light;
+        text-align: left;
+        height: 100px;
+      }
+
+      button {
+        background-color: $primary;
+        border: 0;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: $default-border-radius;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      &.create-new {
+        background-color: $primary;
+
+        button {
+          background-color: white;
+          margin-top: 50px;
+          margin-bottom: 20px;
+          border: 0;
+          height: 70px;
+          width: 70px;
+          border-radius: 30%;
+          font-size: 36px;
+          color: $dark-text;
+          cursor: pointer;
+        }
+
+        h2 {
+          font-size: 24px;
+          color: white;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

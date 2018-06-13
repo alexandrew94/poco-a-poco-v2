@@ -1,0 +1,26 @@
+header {
+  padding: 10px 0;
+  width: 100%;
+  height: 100px;
+
+  .page-title {
+    top: 100px;
+    height: 0px;
+    text-align: center;
+    width: 100%;
+
+    h1 {
+      font-size: 72px;
+      font-weight: 800;
+      position: relative;
+      top: -20px;
+    }
+  }
+
+  div.stave {
+    width: 100%;
+    height: 3px;
+    background-color: lightgrey;
+    margin: 7px 0;
+  }
+}

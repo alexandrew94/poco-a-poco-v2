@@ -1,0 +1,80 @@
+.logs {
+  background-color: $primary-color-light;
+  margin-top: $default-margin;
+  border-radius: $default-border-radius;
+  text-align: center;
+  padding: $default-padding;
+
+  h2.title {
+    margin: $default-margin;
+    background-color: $secondary-color;
+    border-radius: $default-border-radius;
+    padding-top: 15px;
+    font-size: 36px;
+    height: 70px;
+    font-weight: 800;
+    color: white;
+  }
+
+  h3 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .scroll-container {
+    margin: $default-margin;
+    background-color: white;
+    border-radius: $default-border-radius;
+    height: 200px;
+    overflow-y: scroll;
+    border: 7px solid $secondary-color;
+
+    &.composers-log {
+      background-color: white;
+      border: 7px solid $secondary-color;
+
+      p {
+        background-color: $primary;
+      }
+    }
+
+    &.instruments-log {
+      border: 7px solid $primary;
+
+      p {
+        background-color: $secondary-color;
+      }
+    }
+
+    &.practice-log {
+      background-color: $primary;
+      max-height: 650px;
+
+      p {
+        background-color: white;
+        color: $dark-text;
+
+        strong {
+          color: $dark-text;
+        }
+      }
+    }
+
+    p {
+      margin: 15px;
+      padding: 15px;
+      border-radius: $default-border-radius;
+      color: white;
+
+      strong {
+        font-weight: 800;
+        color: white;
+      }
+    }
+  }
+
+  .scroll-container.practice-log {
+    margin: $default-margin, $default-margin, $default-margin, 15px;
+    height: 85%;
+  }
+}
