@@ -34,6 +34,7 @@ describe('POST /users/:id/pieces', () => {
       .send({
         title: 'piece1',
         composer: 'composer1',
+        instrument: 'violin',
         user: seededUser
       })
       .end((err, res) => {
@@ -49,6 +50,7 @@ describe('POST /users/:id/pieces', () => {
       .send({
         title: 'piece1',
         composer: 'composer1',
+        instrument: 'violin',
         user: seededUser
       })
       .end((err, res) => {
@@ -61,6 +63,7 @@ describe('POST /users/:id/pieces', () => {
     const pieceData = {
       title: 'piece1',
       composer: 'composer1',
+      instrument: 'violin',
       user: seededUser._id.toString()
     };
     api
