@@ -18,6 +18,7 @@ const userData = {
 const pieceData = {
   title: 'piece1',
   composer: 'composer1',
+  instrument: 'violin',
   user: seededUser
 };
 
@@ -71,6 +72,7 @@ describe('UPDATE /users/:id/pieces/:pieceId', () => {
     const pieceData = {
       title: 'changed',
       composer: 'changed',
+      instrument: 'violin',
       user: seededUser._id.toString()
     };
     api

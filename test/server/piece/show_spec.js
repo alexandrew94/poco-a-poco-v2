@@ -26,6 +26,7 @@ describe('GET /users/:id/piece/:pieceId', () => {
         return Piece.create({
           title: 'piece1',
           composer: 'composer1',
+          instrument: 'violin',
           user: seededUser
         });
       })
@@ -59,6 +60,7 @@ describe('GET /users/:id/piece/:pieceId', () => {
     const pieceData = {
       title: 'piece1',
       composer: 'composer1',
+      instrument: 'violin',
       user: seededUser._id.toString()
     };
     api

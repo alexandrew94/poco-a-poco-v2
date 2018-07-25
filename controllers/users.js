@@ -40,7 +40,7 @@ function update(req, res, next) {
 }
 
 function signup(req, res, next) {
-  console.log(req.body);
+  // console.log(req.body);
   User
     .create(req.body)
     .then(user => {

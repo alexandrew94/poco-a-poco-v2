@@ -34,18 +34,22 @@ describe('GET /users/:id/pieces', () => {
         return Piece.create([{
           title: 'piece1',
           composer: 'composer1',
+          instrument: 'violin',
           user: seededUsers[0]
         }, {
           title: 'piece2',
           composer: 'composer2',
+          instrument: 'violin',
           user: seededUsers[0]
         }, {
           title: 'piece3',
           composer: 'composer3',
+          instrument: 'violin',
           user: seededUsers[1]
         }, {
           title: 'piece4',
           composer: 'composer4',
+          instrument: 'violin',
           user: seededUsers[1]
         }]);
       })
@@ -82,18 +86,22 @@ describe('GET /users/:id/pieces', () => {
             const pieceData = [{
               title: 'piece1',
               composer: 'composer1',
+              instrument: 'violin',
               user: seededUsers[0]._id.toString()
             }, {
               title: 'piece2',
               composer: 'composer2',
+              instrument: 'violin',
               user: seededUsers[0]._id.toString()
             }, {
               title: 'piece3',
               composer: 'composer3',
+              instrument: 'violin',
               user: seededUsers[1]._id.toString()
             }, {
               title: 'piece4',
               composer: 'composer4',
+              instrument: 'violin',
               user: seededUsers[1]._id.toString()
             }];
             Object.keys(pieceData[index]).forEach(field => {
